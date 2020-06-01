@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+    <title>Assignment 1</title>
+
+    <style>
+        #header{
+            background-color: aquamarine;
+            height:150pt;
+        }
+
+        #middle{
+            height: 300pt;
+            width: 100%;
+        }
+        
+        #m1{
+            width: 25%;
+            float: left;
+            background-color: darkkhaki;
+            height: 100%;
+        }
+        #m2{
+            float: left;
+            background-color: darkseagreen;
+            height: 100%;
+        }
+        #m3{
+            width: 25%;
+            background-color: deepskyblue;
+            float: left;
+            height: 100%;
+        }
+
+        #list{
+            margin: 15pt;
+        }
+
+        #m3>div{
+            margin: 15pt;
+            padding: 15pt;
+            background-color: cadetblue;
+        }
+
+        #ca1,#ca2,#ca3{
+            margin: 5pt;
+            padding: 5pt;
+            text-align: center;
+            border-style: solid;
+            border-color: crimson;
+        }
+
+        #ca1{
+            height: 50%;
+        }
+
+        #ca2{
+            height: 30%;
+        }
+        
+        #ca3{
+            height: 20%;
+        }
+
+        #footer{
+            height: 200pt;
+            background-color: blueviolet;
+        }
+
+        #logo{
+            margin: 15pt;
+        }
+        #hrefs{
+            margin: 5pt;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img id="logo" src="index.png" alt="Logo" width="100pt" height="60"> 
+        <span id="span1">header</span>
+        <span id="hrefs">
+            <a href="">Home</a>
+            <a href="">SignUp</a>
+            <a href="">Contact</a>
+    
+        </span>
+       
+    </div>
+
+    <div id="middle">
+
+        <div id="m1">
+            <ul id="list">
+                <li>Menu Item 1</li>
+                <li>Menu Item 2</li>
+                <li>Menu Item 3</li>
+            </ul>
+        </div>
+
+        <div id="m2">
+            <div id="ca1">content area 1</div>
+            <div id="ca2">content area 2</div>
+            <div id="ca3">content area 3</div>
+        </div>
+        
+        <div id="m3">
+            <div>
+                <input type="text" id="email" name="email"><br>
+                <input type="text" id="password" name="password"><br>
+                <button id="btn">Login</button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <span>footer</span>
+
+    </div>
+</body>
+
+</html>
